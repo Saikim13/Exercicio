@@ -1,16 +1,20 @@
 <template>
   <div id="app">
     <NovoComponent/>
+    <TesteIf/>
+
   </div>
 </template>
 
 <script>
 import NovoComponent from './components/NovoComponent.vue'
+import TesteIf from './components/TesteIf.vue'
 
 export default {
   name: 'App',
   components: {
-    NovoComponent
+    NovoComponent,
+    TesteIf
   }
 }
 </script>
